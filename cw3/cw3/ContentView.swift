@@ -14,7 +14,7 @@ struct ContentView: View {
         ZStack{
             VStack{
                 
-                Text("welcomeback,\t \(username)\(fullname)")
+                Text("welcomeback,\t \(username)\(fullname)").font(.largeTitle)
                 
                 Image("profile picture")
                 
